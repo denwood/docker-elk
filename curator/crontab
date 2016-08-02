@@ -1,0 +1,9 @@
+* * * * * echo "hello :) " 
+
+# EXAMPLE : 
+#* * * * * /usr/local/bin/curator --host 127.0.0.1 --port 9201 delete indices --older-than 2 --time-unit days --timestring '%Y.%m.%d' --prefix logstash
+
+#* * * * * /usr/local/bin/curator --host 127.0.0.1 --port 9201 delete indices --older-than 2 --time-unit days --timestring '%Y.%m.%d' --prefix winlogbeat
+
+#* * * * * /usr/local/bin/curator --host 127.0.0.1 --port 9201 delete indices --older-than 3 --time-unit days --timestring '%Y.%m.%d' --prefix topbeat
+
